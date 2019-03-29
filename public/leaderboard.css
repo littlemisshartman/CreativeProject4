@@ -1,5 +1,17 @@
  /* leaderboard page */
 
+ /*Footer Styling*/
+footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   background-color: #8A96A3;
+}
+
  body, html {
     color: #8A96A3;
     background-color: #191C23;

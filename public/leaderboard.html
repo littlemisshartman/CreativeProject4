@@ -11,7 +11,7 @@
             <div id="leaderboard">
                   <h1>Recent Games</h1>
                   <ol class="leftJustified">
-                        <div v-for="item in items" :key="item" :item="item">
+                        <div v-for="item in shortenedItems" :key="item" :item="item">
                               <li>
                                     Email: {{ item.email }} <br>
                                     Turns: {{ item.turns }} <br>
@@ -31,6 +31,10 @@
                         <li>powerpufffs - 11 - 2:01</li>
                   </ol>
                   <a href="/game.html"><button>Return to the Game</button></a>
+                  <br>
+                  <br>
+                  <br>
+                  <hr>
             </div>
       </div>
       <footer><a
